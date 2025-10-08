@@ -11,14 +11,5 @@ resources:
 env:
   - name: NODE_ENV
     value: production
-
-dependencies:
-  - type: MYSQL
-    name: MYSQL    
+   
 domain: my-app.deployaja.id
-envMap:
-  db_host: MYSQL_HOST
-  db_name: MYSQL_DATABASE
-  db_user: MYSQL_USER
-  db_password: MYSQL_PASSWORD
-  db_pass: MYSQL_PASSWORD
